@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "webmin-icons";
+  src:url("fonts/webmin-icons.eot");
+  src:url("fonts/webmin-icons.eot?#iefix") format("embedded-opentype"),
+    url("fonts/webmin-icons.woff") format("woff"),
+    url("fonts/webmin-icons.ttf") format("truetype"),
+    url("fonts/webmin-icons.svg#webmin-icons") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "webmin-icons" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="wbm-"]:before,
+[class*=" wbm-"]:before {
+  font-family: "webmin-icons" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.wbm-cloudmin:before {
+  content: "a";
+}
+.wbm-virtualmin:before {
+  content: "b";
+}
+.wbm-webmin:before {
+  content: "c";
+}
