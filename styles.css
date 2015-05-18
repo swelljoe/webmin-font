@@ -47,3 +47,6 @@
 .wbm-webmin:before {
   content: "c";
 }
+.wbm-virtualmin-small:before {
+  content: "d";
+}
