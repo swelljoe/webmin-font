@@ -1,3 +1,5 @@
+![Screenshot](http://i.imgur.com/KlB6hpW.png)
+
 # webmin-font
 Icon font for Webmin related icons
 
